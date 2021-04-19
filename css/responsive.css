@@ -535,8 +535,8 @@
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
-	background: url(images/bg.webp);
 	background-size: cover;
+   	background: url(images/tubo.webp);
 	display: flex;
 	justify-content: center;
 	align-items: center;

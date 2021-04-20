@@ -10,20 +10,20 @@
         <!-------------------------------------------------------------------------------------------------->
         <link rel="shortcut icon" href="../favicon.ico"> 
         <!-------------------------------------------------------------------------------------------------->
-        <link rel="stylesheet" type="text/css" href="css/noJS.css">
-        <link rel="stylesheet" type="text/css" href="css/style-gal.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/home.css">
-        <link rel="stylesheet" type="text/css" href="css/service.css">
-        <link rel="stylesheet" type="text/css" href="css/photos.css">
-        <link rel="stylesheet" type="text/css" href="css/contact.css">
-        <link rel="stylesheet" type="text/css" href="css/responsive.css">
-        <link rel="stylesheet" type="text/css" href="css/footer.css">
-		<link rel="stylesheet" type="text/css" href="css/maps.css">
-		<link rel="stylesheet" type="text/css" href="css/social.css">
-		<link rel="stylesheet" type="text/css" href="css/wats.css">
-		<link rel="stylesheet" type="text/css" href="css/aos.css">
+        <link rel="stylesheet" type="text/css" href="css/noJS.css"><!-- OK-->
+        <link rel="stylesheet" type="text/css" href="css/style-gal.css"><!-- OK-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"><!-- OK-->
+        <link rel="stylesheet" type="text/css" href="css/main.css"><!-- OK-->
+        <link rel="stylesheet" type="text/css" href="css/home.css"><!-- OK-->
+        <link rel="stylesheet" type="text/css" href="css/service.css"><!-- OK-->
+        <link rel="stylesheet" type="text/css" href="css/photos.css"><!-- OK-->
+        <link rel="stylesheet" type="text/css" href="css/contact.css"><!-- OK-->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css"><!-- OK-->
+        <link rel="stylesheet" type="text/css" href="css/footer.css"><!-- OK-->
+		<link rel="stylesheet" type="text/css" href="css/maps.css"><!-- OK-->
+		<link rel="stylesheet" type="text/css" href="css/social.css"><!-- OK-->
+		<link rel="stylesheet" type="text/css" href="css/wats.css"><!--ok -->
+		<link rel="stylesheet" type="text/css" href="css/aos.css"><!--ok -->
 	
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<!-------------------------------------------------------------------------------------------------->

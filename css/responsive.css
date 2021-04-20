@@ -726,7 +726,7 @@
 	position: relative;
 	border:none;
 	border-bottom: 1px solid #fff;
-	color: #fff;
+	color: white;
 	background: transparent;
 	width: 100%;
 	padding: 10px 0;
@@ -775,3 +775,4 @@
 	width: 100%;
 	}
 }
+

@@ -10,20 +10,20 @@
         <!-------------------------------------------------------------------------------------------------->
         <link rel="shortcut icon" href="../favicon.ico"> 
         <!-------------------------------------------------------------------------------------------------->
-        <link rel="stylesheet" type="text/css" href="css/noJS.css"><!-- OK-->
-        <link rel="stylesheet" type="text/css" href="css/style-gal.css"><!-- OK-->
-        <link rel="stylesheet" type="text/css" href="css/style.css"><!-- OK-->
-        <link rel="stylesheet" type="text/css" href="css/main.css"><!-- OK-->
-        <link rel="stylesheet" type="text/css" href="css/home.css"><!-- OK-->
-        <link rel="stylesheet" type="text/css" href="css/service.css"><!-- OK-->
-        <link rel="stylesheet" type="text/css" href="css/photos.css"><!-- OK-->
-        <link rel="stylesheet" type="text/css" href="css/contact.css"><!-- OK-->
-        <link rel="stylesheet" type="text/css" href="css/responsive.css"><!-- OK-->
-        <link rel="stylesheet" type="text/css" href="css/footer.css"><!-- OK-->
-		<link rel="stylesheet" type="text/css" href="css/maps.css"><!-- OK-->
-		<link rel="stylesheet" type="text/css" href="css/social.css"><!-- OK-->
-		<link rel="stylesheet" type="text/css" href="css/wats.css"><!--ok -->
-		<link rel="stylesheet" type="text/css" href="css/aos.css"><!--ok -->
+        <link rel="stylesheet" type="text/css" href="css/noJS.css">
+        <link rel="stylesheet" type="text/css" href="css/style-gal.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+        <link rel="stylesheet" type="text/css" href="css/service.css">
+        <link rel="stylesheet" type="text/css" href="css/photos.css">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/maps.css">
+		<link rel="stylesheet" type="text/css" href="css/social.css">
+		<link rel="stylesheet" type="text/css" href="css/wats.css">
+		<link rel="stylesheet" type="text/css" href="css/aos.css">
 	
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<!-------------------------------------------------------------------------------------------------->
@@ -92,8 +92,14 @@
 							<button type="submit" class="btn btn-primary btn-lg" value="Send">Enviar Mensagem</button>
 						</div>
 					</div>
+					<!--<p class="email" data-aos="zoom-in">suporteigw@gmail.com</p>-->
 				</form>
 			</div>
+			<div class="sci">
+					<ul>
+						<li><a href="mailto:suporteigw@gmail.com?subject=Hello%20again"><img src="images/email.jpg"><p data-aos="zoom-in">suporteigw@gmail.com</p></a></li>
+					</ul>
+				</div>
 			<div class="maps">
 				<div class="maps-desc" style="overflow:hidden;position: relative;"><iframe width="1100" height="540" src="https://maps.google.com/maps?width=1100&amp;height=540&amp;hl=en&amp;q=rua%20elias%20bedran%2C%20sp+(Suporte%20Igw)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;"></style></div><br />
 			</div>
@@ -104,10 +110,10 @@
 					<p class="copyright">© 2019 Suporteigw Soluções em informática e CFTV. São Paulo - SP</p>
 				</div>
 				<div class="wat">
-				<a href="https://wa.me/5511960981447?text=Gostaria%20de%20ter%20mais%20informações" target="_blank">
-				<i style="margin-top:16px" class="fa fa-whatsapp"></i>
-				</a>
-			</div>	
+					<a href="https://wa.me/55114564-3107?text=Olá%20,%20Gostaria%20de%20ter%20mais%20informações" target="_blank">
+					<i style="margin-top:16px" class="fa fa-whatsapp"></i>
+					</a>
+				</div>	
 			</section>
 
 

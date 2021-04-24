@@ -437,6 +437,17 @@
   header .logo img{
 	width: 9%;
   }
+  #slider img{
+    opacity: 0;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: unset;/* deixa a imagem em proporção diferente do cover */
+
+    transition: opacity 3s;
+}
   .gallery-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -559,7 +570,7 @@
     opacity: 0;
     position: absolute;
 
-    width: 130%;
+    width: 120%;
     height: 100%;
 
     object-fit: unset;/* deixa a imagem em proporção diferente do cover */

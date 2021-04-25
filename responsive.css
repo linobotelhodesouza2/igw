@@ -561,12 +561,12 @@
 
     width: 120%;
     height: 100%;
-    object-fit: fill;
+    object-fit: unset;
 
     transition: opacity 3s;
 }
 
-#slider img.selected {
+#slider img .selected {
     opacity: 1;
 }	.statsBox 
 	{
@@ -577,7 +577,6 @@
 		max-width: 100%;
 		margin-top: 40px;
 		margin: 80px;
-		border: 1px solid red;
 	}
 
   .gallery-container {

@@ -46,7 +46,8 @@
  }
 .services .box .iconBx img
 {
-	width: 65px;
+	width: 35px;
+	height: 35px;
 	margin-bottom: 15px;
 	/*border: 2px solid red;*/
 }

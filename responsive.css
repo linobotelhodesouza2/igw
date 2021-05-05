@@ -56,6 +56,18 @@
 	{
 		color: #000;
 	}
+	.banner{
+		position: relative;
+		width: 100%;
+		min-height: 100vh;
+		background-size: cover;
+	   	background-image: url(../images/img1.jpg);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		opacity: 0.9;
+		border:1px solid red;
+	}
 	.banner
 	{
 		background-position: center;
@@ -282,6 +294,18 @@
 	{
 		color: #000;
 	}
+	.banner{
+		position: relative;
+		width: 100%;
+		min-height: 100vh;
+		background-size: cover;
+	   	background-image: url(../images/img1.jpg);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		opacity: 0.9;
+		border:1px solid red;
+	}
 	.banner
 	{
 		background-position: center;
@@ -437,6 +461,18 @@
   header .logo img{
 	width: 9%;
   }
+  .banner{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background-size: unset;
+   	background-image: url(../images/img-mobile3.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.9;
+	border:1px solid red;
+}
   .gallery-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -521,6 +557,25 @@
 	}
 } 
 
+
+
+
+/***********************************************************************/
+@media(max-width: 640px){
+	.banner{
+		position: relative;
+		width: 100%;
+		min-height: 100vh;
+		background-size: cover;
+	   	background-image: url(../images/img-mobile3.jpg);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		opacity: 0.9;
+		border:1px solid red;
+	}	
+}
+
 /***********************************************************************/
 @media(max-width: 480px){
   .gallery .image{
@@ -528,22 +583,23 @@
     padding: 4px;
   }
   header .logo img{
-	width: 15%;
+	width: 10%;
   }
 
-  /*.banner{
+
+.banner{
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	background-size: cover;
-   	background: url(images/tubo.webp);
+   	background-image: url(../images/img-mobile3.jpg);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	opacity: 0.9;
 	border:1px solid red;
 }
-*/
+/*
 #slider {
     position: relative;
 	width: 100%;
@@ -559,17 +615,20 @@
     opacity: 0;
     position: absolute;
 
-    width: 120%;
+    width: 100%;
     height: 100%;
-    object-fit: unset;
+
+    object-fit: cover;
 
     transition: opacity 3s;
 }
 
-#slider img .selected {
+#slider img.selected {
     opacity: 1;
-}	.statsBox 
-	{
+}	
+*/
+
+.statsBox {
 		position: relative;
 		display: inline-block;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -577,6 +636,7 @@
 		max-width: 100%;
 		margin-top: 40px;
 		margin: 80px;
+		border: 1px solid red;
 	}
 
   .gallery-container {

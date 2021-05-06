@@ -85,7 +85,10 @@ http://responsivetesttool.com/
 	}
 	
 }
-
+.contact
+{	
+	background: black;
+}
 /***********************************************************************/
 @media(max-width: 992px){
 	.gallery .image{
@@ -147,7 +150,7 @@ http://responsivetesttool.com/
 	   background-size: cover;
 	   max-width: 100%;
 	   height: 700px;
-	   margin-bottom: 4.8em;
+	   margin-bottom:-10%;
 	   position: relative;
 	   background-repeat: no-repeat;
 	}
@@ -252,6 +255,10 @@ http://responsivetesttool.com/
 		grid-column-start: span 2;
 		grid-row-start: span 2; 
 	}
+	.contact
+{	
+	background: black;
+}
 
 	.contactForm form
 	{
@@ -388,20 +395,37 @@ http://responsivetesttool.com/
 		font-size: 41px;/* espaçamento lateral do menu e imagem*/
 		padding: 0 50px;
 	}
-	.sec
-	{
-		padding: 100px 50px 50px 50px;
+	.sec{
+		background: #fff;
+		padding: 60px;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
-	.services .box
-	{
+	.sec .content{
+		position: relative;
+		text-align: justify;
 		width: 100%;
-	}.stats
-	{
-		padding-top: 250px;
+		padding-top: 0;
 	}
-	.row100
+	.services .box .iconBx img
 	{
-		flex-direction: column;
+		width: 35px;
+		height: 35px;
+		margin-bottom: 15px;
+		display: block;/*deixando a img no centro*/
+		margin-right: auto;
+		margin-left: auto;
+		/*border: 2px solid red;*/
+	}
+	.services .box h2
+	{
+		text-align: center;
+		font-size: 18px;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+		font-weight: 700;
 	}
 
 	.gallery-container {
@@ -482,6 +506,10 @@ http://responsivetesttool.com/
 		grid-column-start: span 2;
 		grid-row-start: span 2; 
 	}
+	.contact
+{	
+	background: black;
+}
 
 	.contactForm form
 	{
@@ -518,6 +546,12 @@ http://responsivetesttool.com/
 		font-size: 24px;
 		margin-right: 10px;
 	}
+	.sci ul li a img
+{
+	filter: invert(1);/* colocando os icones que estavam atras invertendo jogando pra frente */
+	max-width: 30px;
+	margin-left: 40%;
+}
 	h3
 	{
 		font-size: 36px;
@@ -542,7 +576,48 @@ http://responsivetesttool.com/
    position: relative;
    background-repeat: no-repeat;
 }
-
+.sec{
+	background: #fff;
+	padding: 60px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sec .content{
+	position: relative;
+	text-align: justify;
+	width: 100%;
+	padding-top: 0;
+}
+.services .box .iconBx img
+{
+	width: 35px;
+	height: 35px;
+	margin-bottom: 15px;
+	display: block;/*deixando a img no centro*/
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 2px solid red;*/
+}
+.services .box h2
+{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.contact
+{	
+	background: black;
+}
+.sci ul li a img
+{
+	filter: invert(1);/* colocando os icones que estavam atras invertendo jogando pra frente */
+	max-width: 30px;
+	margin-left: 40%;
+}
 /***********************************************************************/
 @media(max-width: 768px){
   .gallery .image{
@@ -552,6 +627,7 @@ http://responsivetesttool.com/
   header .logo img{
 	width: 8%;
   }
+
 .banner {
    background-image: url('../images/img-mobile3.jpg');
    background-size: cover;
@@ -563,129 +639,38 @@ http://responsivetesttool.com/
 }
 .sec{
 	background: #fff;
-	padding: 90px;
+	padding: 60px;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-  .gallery-container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-auto-rows: 150px;
-	padding: 20px;
-	grid-gap: 10px;
-   }
-
-  .gallery__img {
+.sec .content{
+	position: relative;
+	text-align: justify;
 	width: 100%;
-	height: 100%;
-	object-fit: cover;
-   }
-
-   .gallery__item:nth-child(1) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-  .gallery__item:nth-child(2) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(3) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(4) {
-	grid-column-start: span 4;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(5) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(6) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(7) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
- 	.gallery__item:nth-child(8) {
-	grid-column-start: span 4;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(9) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(10) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(11) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(12) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(13) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(14) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(15) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-   .gallery__item:nth-child(16) {
-	grid-column-start: span 3;
-	grid-row-start: span 3; 
-   }
-  
-   .maps .maps-desc{
-	width: 100%;
-	}
-} 
-/***********************************************************************/
-@media(max-width: 540px){
- 
-   header .logo img{
-	width: 9%;
-  }
-.banner {
-   background-image: url('../images/img-mobile3.jpg');
-   background-size: cover;
-   max-width: 100%;
-   height: 700px;
-   margin-bottom: 4.8em;
-   position: relative;
-   background-repeat: no-repeat;
+	padding-top: 0;
 }
-/***********************************************************************/
-@media(max-width: 480px){
-  .gallery .image{
-    width: 100%;
-    padding: 4px;
-  }
-  header .logo img{
-	width: 11%;
-  }
-
-.banner {
-   background-image: url('../images/img-mobile3.jpg');
-   background-size: cover;
-   max-width: 100%;
-   height: 700px;
-   margin-bottom: 4.8em;
-   position: relative;
-   background-repeat: no-repeat;
+.services .box .iconBx img
+{
+	width: 35px;
+	height: 35px;
+	margin-bottom: 15px;
+	display: block;/*deixando a img no centro*/
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 2px solid red;*/
 }
+.services .box h2
+{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
 .statsBox{
 		position: relative;
 		display: inline-block;
@@ -864,6 +849,327 @@ http://responsivetesttool.com/
 	letter-spacing: 2px;
 	cursor: pointer;
 	font-weight: 500;
+}
+.copyright
+{	padding: 2%;
+	margin: auto;
+	bottom: 0;
+	text-align: center;
+}
+.footer /* define o footer da pagina fundo*/
+{	
+	background: #51c4d3;
+	height: 100px;
+}
+.footer p{
+	color: white;
+	padding-top: 30px;
+	margin-right: 80px;
+}
+.maps .maps-desc{
+	width: 100%;
+	}
+}
+.sci ul li a img
+{
+	filter: invert(1);/* colocando os icones que estavam atras invertendo jogando pra frente */
+	max-width: 30px;
+	margin-left: 40%;
+} 
+/***********************************************************************/
+@media(max-width: 540px){
+ 
+   header .logo img{
+	width: 9%;
+  }
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: cover;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
+.sec{
+	background: #fff;
+	padding: 60px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sec .content{
+	position: relative;
+	text-align: justify;
+	width: 100%;
+	padding-top: 0;
+}
+.services .box .iconBx img
+{
+	width: 35px;
+	height: 35px;
+	margin-bottom: 15px;
+	display: block;/*deixando a img no centro*/
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 2px solid red;*/
+}
+.services .box h2
+{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.contact
+{	
+	background: black;
+}
+.sci ul li a img
+{
+	filter: invert(1);/* colocando os icones que estavam atras invertendo jogando pra frente */
+	max-width: 30px;
+	margin-left: 40%;
+}
+/***********************************************************************/
+@media(max-width: 480px){
+  .gallery .image{
+    width: 100%;
+    padding: 4px;
+  }
+  header .logo img{
+	width: 11%;
+  }
+
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: cover;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
+.sec{
+	background: #fff;
+	padding: 60px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sec .content{
+	position: relative;
+	text-align: justify;
+	width: 100%;
+	padding-top: 0;
+}
+.services .box .iconBx img
+{
+	width: 35px;
+	height: 35px;
+	margin-bottom: 15px;
+	display: block;/*deixando a img no centro*/
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 2px solid red;*/
+}
+.services .box h2
+{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+.statsBox{
+		position: relative;
+		display: inline-block;
+		grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+		grid-gap: 20px;
+		max-width: 100%;
+		margin-top: 40px;
+		margin: 80px;
+		border: 1px solid red;
+	}
+  .gallery-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 150px;
+	padding: 20px;
+	grid-gap: 10px;
+   }
+  .gallery__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+   }
+   .gallery__item:nth-child(1) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(2) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(3) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(4) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(5) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(6) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(7) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+ 	.gallery__item:nth-child(8) {
+	grid-column-start: span 3;
+	grid-row-start: span 3; 
+   }
+   .gallery__item:nth-child(9) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(10) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(11) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(12) {
+	grid-column-start: span 3;
+	grid-row-start: span 3; 
+   }
+   .gallery__item:nth-child(13) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(14) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(15) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+   .gallery__item:nth-child(16) {
+	grid-column-start: span 3;
+	grid-row-start: span 2; 
+   }
+.wat a{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:100px;
+	right:25px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index:1000;
+}
+.contact
+{	
+	background: black;
+}
+.contact h3,
+.contact p
+{
+	text-align: center;
+	color: #fff;
+}
+.contactForm
+{
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+.contactForm form
+{
+	width: 100%
+}
+.contactForm .row100
+{
+	display: flex;
+	width: 100%;/* linhas do form */
+}
+.contactForm .row100 .inputBx50
+{
+	width: 50%;
+	margin: 0 20px;
+}
+.contactForm .row100 .inputBx100
+{
+	width: 100%;
+	margin: 0 0px;
+}
+.contactForm .row100 .inputBx100 .btn
+{
+	width: 40%;
+	margin: 0 110px;
+	margin-top: 30px;
+	margin-bottom: -100px;
+	background-color: #ce1212;
+}
+.contactForm .row100 input,
+.contactForm .row100 textarea /* imputs de colocacao de textos para enviar */
+{
+	position: relative;
+	border:none;
+	border-bottom: 1px solid #fff;
+	color: white;
+	background: transparent;
+	width: 100%;
+	padding: 10px 0;
+	outline: none;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 15px 0;
+	resize: none;
+}
+.contacForm .row100 textarea
+{
+	height: 100px;
+}
+.contactForm .row100 input::placeholder,
+.contactForm .row100 textraea::placeholder
+{
+	color: rgba(255,255,255,0.5);
+}
+.contactForm .row100 input[type="submit"]
+{
+	background: #fff;
+	color: #000;
+	max-width: 100px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	font-weight: 500;
+}
+.sci ul li a img
+{
+	filter: invert(1);/* colocando os icones que estavam atras invertendo jogando pra frente */
+	max-width: 30px;
+	margin-left: 40%;
 }
 .copyright
 {	padding: 2%;

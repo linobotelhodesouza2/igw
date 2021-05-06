@@ -36,10 +36,12 @@
 {
 	position: relative;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 30px;
 	max-width: 100%;
 	margin-top: 40px;
+	padding: 0;
+	margin: -8px;
 }
 .services .box{
 	width: 300px;

@@ -286,6 +286,15 @@ http://responsivetesttool.com/
 		width: 100%;
 		margin: 0;
 	}
+	.contactForm .row100 .inputBx100 .btn
+	{
+		width: 32%;
+		margin: 0 110px;
+		margin-top: 30px;
+		margin-bottom: -100px;
+		background-color: #ce1212;
+		margin-left: 34%;
+	}
 	.sci
 	{
 		margin-right: 10px;
@@ -814,6 +823,7 @@ http://responsivetesttool.com/
 	margin-top: 30px;
 	margin-bottom: -100px;
 	background-color: #ce1212;
+	margin-left: 29%;
 }
 .contactForm .row100 input,
 .contactForm .row100 textarea /* imputs de colocacao de textos para enviar */
@@ -1124,11 +1134,12 @@ http://responsivetesttool.com/
 }
 .contactForm .row100 .inputBx100 .btn
 {
-	width: 40%;
+	width: 52%;
 	margin: 0 110px;
 	margin-top: 30px;
 	margin-bottom: -100px;
 	background-color: #ce1212;
+	margin-left: 75px;
 }
 .contactForm .row100 input,
 .contactForm .row100 textarea /* imputs de colocacao de textos para enviar */

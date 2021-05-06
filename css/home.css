@@ -16,7 +16,7 @@ header.sticky{
 	background: #fff;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 }
-header img{
+header .logo img{
 	height: 10%;
 	width: 10%;
 }
@@ -55,41 +55,4 @@ header ul li a{
 header.sticky .logo,
 header.sticky ul li a{
 	color: #000;
-}
-
-/*.banner{
-	position: relative;
-	width: 100%;
-	min-height: 100vh;
-	background: url(images/bg.webp);
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	opacity: 0.9;
-	border:1px solid red;
-}
-*/
-#slider {
-    position: relative;
-	width: 100%;
-	min-height: 100vh;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	opacity: 0.9;
-}
-
-#slider img{
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: opacity 3s;
-}
-
-#slider img.selected {
-    opacity: 1;
 }

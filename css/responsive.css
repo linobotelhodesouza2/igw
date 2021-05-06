@@ -1,11 +1,105 @@
+/*
+http://responsivetesttool.com/
+@media screen and (max-width: 1128px) {
+.container {
+   padding: 0 2.4em 0 2.4em;
+}
+}
+@media screen and (max-width: 768px) {
+.caixa {
+   width: 65%;
+}
+}
+@media screen and (max-width: 718px) {
+.banner {
+   position: relative;
+   float: left;
+   margin:0;
+   height: 150px;
+}
+@media screen and (max-width: 640px) {
+.menu {
+   width: 100%;
+}
+@media screen and (max-width: 520px) {
+.coluna {
+   width: 100%;
+   margin-right: 0;
+}
+}
+*/
+/***********************************************************************/
+@media screen and (min-width: 1225px) {
+
+    header .logo img{
+	   width: 10%;
+    } 
+
+	header .logo{
+		width: 110%;
+	}
+	.banner {
+	   background-image: url('../images/banner.jpg');
+	   background-size: cover;
+	   max-width: 100%;
+	   height: 700px;
+	   margin-bottom: 4.8em;
+	   position: relative;
+	   background-repeat: no-repeat;
+	}
+	
+}
+
+/***********************************************************************/
+@media screen and (max-width: 1225px) {
+
+    header .logo img{
+	   width: 10%;
+    } 
+
+	header .logo{
+		width: 110%;
+	}
+	.banner {
+	   background-image: url('../images/banner.jpg');
+	   background-size: cover;
+	   max-width: 100%;
+	   height: 700px;
+	   margin-bottom: 4.8em;
+	   position: relative;
+	   background-repeat: no-repeat;
+	}
+	
+}
+
+/***********************************************************************/
+@media screen and (max-width: 1024px) {
+
+    header .logo img{
+	   width: 0%;
+    } 
+
+	header .logo{
+		width: 110%;
+	}
+	.banner {
+	   background-image: url('../images/banner.jpg');
+	   background-size: contain;
+	   max-width: 100%;
+	   height: 700px;
+	   margin-bottom: 4.8em;
+	   position: relative;
+	   background-repeat: no-repeat;
+	}
+	
+}
+
+/***********************************************************************/
 @media(max-width: 992px){
 	.gallery .image{
 	width: calc(100% / 2);
 	}
 
-	header .logo img{
-	width: 15%;
-	}
 	header,
 	header.sticky
 	{
@@ -45,7 +139,7 @@
        padding: 4px;
     }
     header .logo img{
-	   width: 7%;
+	   width: 5%;
     } 
 
 	header .logo{
@@ -55,6 +149,15 @@
 	header ul li a
 	{
 		color: #000;
+	}
+	.banner {
+	   background-image: url('../images/banner.jpg');
+	   background-size: cover;
+	   max-width: 100%;
+	   height: 700px;
+	   margin-bottom: 4.8em;
+	   position: relative;
+	   background-repeat: no-repeat;
 	}
 	.banner
 	{
@@ -198,6 +301,7 @@
 		font-size: 36px;
 	}
 }
+/***********************************************************************/
 @media (max-width: 992px)/*colocando o menu hamburguer*/
 {
 	.toggle
@@ -271,7 +375,7 @@
        padding: 4px;
     }
     header .logo img{
-	   width: 7%;
+	   width: 5%;
     } 
 
 	header .logo{
@@ -282,6 +386,7 @@
 	{
 		color: #000;
 	}
+	
 	.banner
 	{
 		background-position: center;
@@ -427,16 +532,51 @@
 	}
 }
 
+/***********************************************************************/
+@media(max-width: 860px){
+  .gallery .image{
+    width: 100%;
+    padding: 4px;
+  }
+  header .logo img{
+	width: 6%;
+  }
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: cover;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
 
-
+/***********************************************************************/
 @media(max-width: 768px){
   .gallery .image{
     width: 100%;
     padding: 4px;
   }
   header .logo img{
-	width: 9%;
+	width: 8%;
   }
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: cover;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
+.sec{
+	background: #fff;
+	padding: 90px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
   .gallery-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -520,7 +660,21 @@
 	width: 100%;
 	}
 } 
-
+/***********************************************************************/
+@media(max-width: 540px){
+ 
+   header .logo img{
+	width: 9%;
+  }
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: cover;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
 /***********************************************************************/
 @media(max-width: 480px){
   .gallery .image{
@@ -528,49 +682,19 @@
     padding: 4px;
   }
   header .logo img{
-	width: 15%;
+	width: 11%;
   }
 
-  /*.banner{
-	position: relative;
-	width: 100%;
-	min-height: 100vh;
-	background-size: cover;
-   	background: url(images/tubo.webp);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	opacity: 0.9;
-	border:1px solid red;
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: cover;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
 }
-*/
-#slider {
-    position: relative;
-	width: 100%;
-	min-height: 100vh;
-	background-size: cover;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	opacity: 0.9;
-}
-
-#slider img{
-    opacity: 0;
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-
-    transition: opacity 3s;
-}
-
-#slider img.selected {
-    opacity: 1;
-}	.statsBox 
-	{
+.statsBox{
 		position: relative;
 		display: inline-block;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -580,7 +704,6 @@
 		margin: 80px;
 		border: 1px solid red;
 	}
-
   .gallery-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -588,13 +711,11 @@
 	padding: 20px;
 	grid-gap: 10px;
    }
-
   .gallery__img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
    }
-
    .gallery__item:nth-child(1) {
 	grid-column-start: span 3;
 	grid-row-start: span 2; 
@@ -659,7 +780,6 @@
 	grid-column-start: span 3;
 	grid-row-start: span 2; 
    }
-
 .wat a{
 	position:fixed;
 	width:60px;
@@ -675,8 +795,7 @@
 	z-index:1000;
 }
 .contact
-{
-	
+{	
 	background: black;
 }
 .contact h3,
@@ -692,7 +811,6 @@
 	margin: 0 auto;
 	display: flex;
 }
-
 .contactForm form
 {
 	width: 100%
@@ -775,4 +893,60 @@
 	width: 100%;
 	}
 }
+/***********************************************************************/
+@media(max-width: 414px){
+  .gallery .image{
+    width: 100%;
+    padding: 4px;
+  }
+  header .logo img{
+	width: 16%;
+  }
 
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: contain;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
+/***********************************************************************/
+@media(max-width: 375px){
+  .gallery .image{
+    width: 100%;
+    padding: 4px;
+  }
+  header .logo img{
+	width: 18%;
+  }
+
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: contain;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}
+/***********************************************************************/
+@media(max-width: 320px){
+  .gallery .image{
+    width: 100%;
+    padding: 4px;
+  }
+  header .logo img{
+	width: 16%;
+  }
+
+.banner {
+   background-image: url('../images/img-mobile3.jpg');
+   background-size: contain;
+   max-width: 100%;
+   height: 700px;
+   margin-bottom: 4.8em;
+   position: relative;
+   background-repeat: no-repeat;
+}

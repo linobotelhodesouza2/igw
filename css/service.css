@@ -1,6 +1,6 @@
 .sec{
 	background: #fff;
-	padding: 90px;
+	padding: 20px;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -10,11 +10,19 @@
 	position: relative;
 	text-align: center;
 	width: 100%;
+	padding-top: 0;
 }
 .mxw800p{
-	max-width: 800px;
+	max-width: 900px;
 	margin: 0 auto;
 }
+.paragrafo{
+	position: relative;
+	text-align: left;
+	width: 100%;
+	padding-top: 0;
+}
+
 .btn /* deixando o btn com a caixa preta e cor preta LEIA NOSSA HISTORIA*/
 {
 	position: relative;
@@ -46,8 +54,10 @@
  }
 .services .box .iconBx img
 {
-	max-width: 70px;
+	width: 35px;
+	height: 35px;
 	margin-bottom: 15px;
+	/*border: 2px solid red;*/
 }
 .services .box h2
 {
